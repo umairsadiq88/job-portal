@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: jobportal-deploy
+  labels: 
+    app: jobportalapp
+spec: 
+  replicas: 10
+  selector:
+    matchLabels:
+      app: jobportalapp
+  template:
+    metadata:
+      name: deploy-pod
+      labels:
+        app: jobportalapp
+    spec: 
+      containers:
+      - image: umairsadiq88/jobportal:v1
+        name: container1
+        imagePullPolicy: IfNotPresent 

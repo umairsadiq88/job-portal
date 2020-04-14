@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="MOIXA Job Search website" />
+    <meta name="keywords" content="for Excellence for Employee & Job Seekers " />
+    <meta name="author" content="Umair Sadiq" />
+    <title>MOIXA | Employers</title>
+</head>
+
+<body>
+
+
+
+    <table>
+        <tr>
+            <thead><img src="../logo.png" width="200" height="75" /></thead>
+            <td><button> <a href="../Sign-up/Sign-up.html"> Sign-In</a></button></td>
+            <td><button><a href="../Login/Login.html">Login In</button></a></td>
+        </tr>
+    </table>
+    <table width="50%" align="right" cellpadding="10" cellspacing="5">
+        <tr bgcolor="#e8491d">
+            <th> <a href="../index.html">
+                    <font Style="color:blanchedalmond">HOME</font>
+                </a></th>
+            <th> <a href="../Jobs/Jobs.html">
+                    <font Style="color:blanchedalmond">JOBS</font>
+                </a></th>
+            <th><a href="../contact/contact.html">
+                    <font Style="color:blanchedalmond">CONTACT</font>
+                </a></th>
+        </tr>
+    </table>
+
+
+    <br>
+
+
+    <!-- form -->
+    <br>
+    <br>
+
+
+    <h1 align="center"> POST YOUR JOB</h1>
+
+
+
+    <form>
+        <!-- Employee Details Start -->
+
+        <Fieldset>
+            <legend>
+                <h2>Employee Details</h2>
+            </legend>
+
+            <label for="Membership ID"><b>Membership ID *</b></label><br>
+            <input name="Membership ID" type="text" maxlength="50" style="width: 600px" />
+            <br><label for="Employee_Name"><b>Employee name *</b></label><br>
+            <input name="Employee_Name" type="text" maxlength="50" style="width: 600px" />
+            <br> <label for="Company_URL"><b>Company's URL</b></label><br>
+            <input name="Company_URL" type="text" maxlength="255" value="http://" style="width: 600px" />
+            <br><label for="Company Email_Address"><b>Company Email *</b></label><br>
+            <input name="Company Email_Address" type="text" maxlength="100" style="width: 600px" />
+            <br><label for="Phone"><b>Phone *</b></label><br />
+            <input name="Phone" type="text" maxlength="50" style="width: 600px" />
+            <br><label for="Fax"><b>Fax</b></label><br />
+            <input name="Fax" type="text" maxlength="50" style="width: 600px" />
+<br>
+            <label for="Location"><b>Location</b></label><br />
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14480.297413923448!2d67.073369!3d24.86131!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa0258a700f7f60b2!2sAxiom!5e0!3m2!1sen!2s!4v1586734816649!5m2!1sen!2s"
+                width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </Fieldset>
+
+        <!-- Employee Details End -->
+
+
+        <!-- Job Details Start -->
+
+        <fieldset>
+            <legend>
+                <h2>JOB Details</h2>
+            </legend>
+
+            <label for="Job_Title"><b>Job Title *</b></label>
+            <br> <input name="Job_Title" type="text" maxlength="50" style="width: 600px" />
+            <br>
+            <br>
+
+            <label for="Gender"><b>Gender *</b></label>
+            <br> <b>Male</b><input name="Gender" type="radio" value="Male" checked />
+            <b>Female</b><input name="Gender" type="radio" value="Female" />
+            <b>No Preference</b><input name="Gender" type="radio" value="No Preference" />
+
+            <br>
+
+            <br>
+
+            <label for="Job_Description"><b>Job Description *</b></label>
+            <br><textarea name="Job_Description" cols="100" rows="4">Enter Job Description</textarea><br>
+
+
+            <label for="Skills"><b>Skills Required*</b></label>
+            <br> <input name="Skills" type="text"
+                placeholder="e.g. Graphics Designer, Application Developer, Web Developer" maxlength="50"
+                style="width: 600px" />
+            <br>
+
+
+
+
+            <label for="Carrer"><b>Required carrer level for this job? *</b></label><br>
+            <select name="Carrer">
+                <option selected> Choose carrer Level</option>
+                <option> Matric/Inter </option>
+                <option> Entry level</option>
+                <option> Experience Professional</option>
+                <option> Department Head</option>
+            </select>
+            <br>
+
+            <label for="Nos of Postion"><b>Nos of Positions *</b></label>
+            <br> <input name="Nos of Position" type="number" maxlength="50" style="width: 600px" />
+            <br>
+
+            <label for="Salary_range"><b>Salary Range</b></label><br>
+            <select name="Salary_range">
+                <option> 10,000 - 20,000 PKR </option>
+                <option> 20,000 - 30,000 PKR </option>
+                <option> 30,000 - 40,000 PKR </option>
+                <option> 40,000 - 50,000 PKR </option>
+                <option> 50,000 - 60,000 PKR </option>
+                <option> 60,000 - 70,000 PKR </option>
+                <option> 70,000 - 80,000 PKR </option>
+                <option> 80,000 - 90,000 PKR </option>
+                <option> 90,0000 - 1 Lac PKR </option>
+            </select>
+            <br>
+            <label for="StartDate"><b>Job start?</b></label><br />
+            <input name="StartDate" type="date" maxlength="50" style="width: 600px" />
+
+        </fieldset>
+        <!-- Job Details End -->
+
+        <input type="submit" value="Submit" />
+    </form>
+
+</body>
+
+
+
+
+
+
+
+<footer>
+    <p align="center">MOIXA, JOB Search Copyright &copy; 2020 | Created by Umair Sadiq</p>
+</footer>
+
+</html>
